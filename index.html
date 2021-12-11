@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="docs/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="docs/img/logo.ico">
+    <title>XCloudy | Home</title>
+    <script>
+        document.addEvent('contextmenu',function(e){
+        e=new Event(e);
+        e.stop();
+        });
+        function selectnone() 
+        {
+        document.body.ondrag = function () { return false; };
+        document.body.onselectstart = function () { return false; };
+        if(window.ie || window.opera){document.body.setProperty("unselectable","on");}
+        if(window.gecko){document.body.setStyle("MozUserSelect","none");}
+        if(window.webkit){document.body.setStyle("KhtmlUserSelect","none");}
+        }
+    </script>
+</head>
+<body onload="selectnone()" bgcolor="#1B1425">
+    <div onContextMenu="return false">
+        
+        <img class="img_style logo-set-hover" src="docs/img/logo.png" alt="logo" width="35" height="35">
+        <div class="logo_text">
+            <font color="#D9D9D9">XCloudy</font>
+        </div>
+        <div class="logo_text_alt">
+            <font color="#7442D1">Premium</font>
+        </div>
+        <button class="button1" type="button"><i class='bx bx-lock-open-alt' ></i> LOG IN</button>
+        <button class="button2" type="button"><i class='bx bx-info-circle' ></i></button>
+        <hr class="hr1" style="height:1px;border-width:0;color:#2D243A;background-color:#2D243A">
+
+        <div class="div_style_1">
+            <font color="#7442D1" class="font_GothamProBold text_shadow_blue" style="font-size:35px;">XCloudy</font>
+            <p>
+            <font color="#a8a8a8" class="font_GothamProMedium" style="font-size:13px;">Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry.</font>
+            <p>
+            <font color="#7442D1" class="font_GothamProMedium text_shadow_blue" style="font-size:20px;"><i class='bx bx-cog'></i> <i class='bx bx-radar' ></i> <i class='bx bx-brush' ></i> <i class='bx bx-check-shield' ></i></font> 
+            <p>
+            <button class="button3" type="button">PURCHASE   <font color="#7442D1" class="text_shadow_blue"> PREMIUM</font></button> 
+        </div>
+        <hr class="hr2" style="height:1px;border-width:0;color:#2D243A;background-color:#2D243A">
+        <div class="div_style_2">
+            <font color="#7442D1" class="font_GothamProMedium text_shadow_blue" style="font-size:25px;"><i class='bx bxl-instagram'></i> <i class='bx bxl-youtube' ></i> <i class='bx bxl-discord-alt'></i></font>
+        </div>
+        <div class="div_style_3">
+            <font color="#7442D1" class="font_GothamProMedium text_shadow_blue" style="font-size:35px;"> XCloudy </font>
+            <br>
+            <font color="#D9D9D9" class="font_GothamPro " style="font-size:10px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2020-2021 </font>
+        </div>
+        <div class="div_style_4">
+            <font color="#7442D1" class="font_GothamProBold " style="font-size:10px;"> <a href="#">Terms Of Service</a> | <a href="#">Privacy Policy</a></font>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("body").bind("cut copy paste", function(){
+                return false;
+            });
+        });
+    </script>
+    <script>
+        $(function(){
+            $("input").bind("cut copy paste", function(){
+                return false;
+            });
+        });
+    </script>
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+</body>
+</html>

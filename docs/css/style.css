@@ -1,0 +1,330 @@
+@font-face {
+  font-family: QuicksandBold;
+  src: url(../font/QuicksandBold.woff);
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(../font/Quicksand.woff);
+}
+
+@font-face {
+  font-family: ArimoSemiBold;
+  src: url(../font/ArimoSemiBold.woff);
+}
+
+@font-face {
+  font-family: GothamPro-Black;
+  src: url(../font/GothamPro-Black.woff);
+}
+
+@font-face {
+  font-family: GothamPro-BlackItalic;
+  src: url(../font/GothamPro-BlackItalic.woff);
+}
+
+@font-face {
+  font-family: GothamPro-Bold;
+  src: url(../font/GothamPro-Bold.woff);
+}
+
+@font-face {
+  font-family: GothamPro-Medium;
+  src: url(../font/GothamPro-Medium.woff);
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../font/GothamPro.woff);
+}
+
+.font_GothamPro{
+  font-family: GothamPro;
+}
+
+.font_GothamProMedium{
+  font-family: GothamPro-Medium;
+}
+
+.font_GothamProBold{
+  font-family: GothamPro-Bold;
+}
+
+.font_GothamProBlackItalic{
+  font-family: GothamPro-BlackItalic;
+}
+
+.font_GothamProBlack{
+  font-family: GothamPro-Black;
+}
+
+.hr1 {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.hr2 {
+  display: block;
+  margin-top: 22%;
+  margin-bottom: 0.5em;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: inset;
+  border-width: 1px;
+}
+
+body{
+  color: #D9D9D9;
+}
+
+.img_style{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 0.5em;
+  margin-left: 6%;
+  margin-right: 90%;
+}
+
+.logo_text{
+  display: block;
+  font-family: QuicksandBold;
+  margin-top: -43px;
+  margin-bottom: 0.5em;
+  margin-left: 8.6%;
+  margin-right: 8.6%;
+}
+
+.logo_text_alt{
+  display: block;
+  color: #D9D9D9;
+  font-family: Quicksand;
+  margin-top: -12px;
+  margin-bottom: 0.5em;
+  margin-left: 8.5%;
+  margin-right: 8.5%;
+}
+
+.button1{
+  display: block;
+  border: none;
+  color: #D9D9D9;
+  background-color: #312742;
+  padding: 10px 20px;
+  font-family: ArimoSemiBold;
+  margin-top: -45px;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+  margin-left: 84%;
+  margin-right: 90px;
+  text-shadow: 2px 2px 4px #0000005b;
+  box-shadow: 1px 2px 10px #0000005b;
+  font-size: 14px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.button1:hover{
+  opacity: 1;
+  display: block;
+  border: none;
+  color: rgb(224, 224, 224);
+  background-color: #6A38B1;
+  padding: 10px 20px;
+  font-family: ArimoSemiBold;
+  margin-top: -45px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 1px 2px 10px #2A085C;
+  transform: translateY(-5px);
+  font-size: 14px;
+}
+
+.button2{
+  display: block;
+  border: none;
+  color: #D9D9D9;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-family: ArimoSemiBold;
+  margin-top: -45px;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+  margin-left: 91%;
+  margin-right: 90px;
+  text-shadow: 2px 2px 4px #0000005b;
+  font-size: 20px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.button2:hover{
+  opacity: 1;
+  display: block;
+  border: none;
+  color: rgb(224, 224, 224);
+  background-color: transparent;
+  padding: 10px 20px;
+  font-family: ArimoSemiBold;
+  margin-top: -45px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px #000000;
+  transform: translateY(-5px);
+  font-size: 20px;
+}
+
+.logo-set-hover:hover {
+  -webkit-animation: flashing 3s ease 1;
+  animation: flashing 2s ease 1;
+}
+
+.buttondark{
+  display: block;
+  border: none;
+  appearance: none;
+  border:0px;
+  outline:0px;
+  color: #D9D9D9;
+  background-color: #272f42;
+  padding: 11px 35px;
+  font-family: ArimoSemiBold;
+  margin-top: -45px;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+  margin-left: 74%;
+  margin-right: 90px;
+  text-shadow: 2px 2px 4px #0000005b;
+  box-shadow: 1px 2px 10px #0000005b;
+  font-size: 14px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.buttondark:hover {
+  opacity: 1;
+  display: block;
+  border: none;
+  appearance: none;
+  border:0px;
+  outline:0px;
+  color: rgb(224, 224, 224);
+  background-color: #272f42;
+  padding: 11px 35px;
+  font-family: ArimoSemiBold;
+  margin-top: -45px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px #0000005b;
+  box-shadow: 1px 2px 10px #0000005b;
+  transform: translateY(-5px);
+  font-size: 14px;
+}
+
+.button3{
+  display: block;
+  border: none;
+  appearance: none;
+  border:0px;
+  outline:0px;
+  color: #D9D9D9;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 11px 35px;
+  font-family: ArimoSemiBold;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+  margin-left: 0%;
+  margin-right: 90px;
+  text-shadow: 2px 2px 4px #0000005b;
+  border-color: #6A38B1;
+  font-size: 14px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.button3:hover {
+  display: block;
+  border: none;
+  appearance: none;
+  border:0px;
+  outline:0px;
+  color: #D9D9D9;
+  background-color: #6A38B1;
+  border: 2px solid black;
+  padding: 11px 35px;
+  font-family: ArimoSemiBold;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+  margin-left: 0%;
+  margin-right: 90px;
+  text-shadow: 2px 2px 4px #0000005b;
+  box-shadow: 1px 2px 10px #2A085C;
+  border-color: #6A38B1;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.div_style_1{
+  margin-left: 15%;
+  margin-right: 120px;
+  margin-top: 180px;
+}
+
+.div_style_2{
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+.div_style_3{
+  margin-left: 48%;
+  margin-top: -2.6%;
+}
+
+.div_style_4{
+  margin-left: 78%;
+  margin-top: -2.6%;
+}
+
+.text_shadow_blue{
+  text-shadow: 0px 0px 7px #2A085C;
+}
+
+.text_shadow_gray{
+  text-shadow: 0px 0px 2px #D9D9D9;
+}
+
+a:link, a:visited {
+  background-color: transparent;
+  color: #d9d9d9de;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+a:hover, a:active {
+  background-color: transparent;
+  color: #7442D1;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #11151f; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #472574; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #472574; 
+}
